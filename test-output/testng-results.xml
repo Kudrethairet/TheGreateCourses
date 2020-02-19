@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20039" started-at="2020-02-19T22:29:07Z" finished-at="2020-02-19T22:29:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20039" started-at="2020-02-19T22:29:07Z" finished-at="2020-02-19T22:29:27Z">
+      <class name="com.greatcourse.tests.smokeTest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.greatcourse.tests.smokeTest@5b275dab]" name="setupClass" is-config="true" duration-ms="31" started-at="2020-02-19T22:29:07Z" finished-at="2020-02-19T22:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.greatcourse.tests.smokeTest@5b275dab]" name="setupTest" is-config="true" duration-ms="13651" started-at="2020-02-19T22:29:07Z" finished-at="2020-02-19T22:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="VerifiedHomePage()[pri:0, instance:com.greatcourse.tests.smokeTest@5b275dab]" name="VerifiedHomePage" duration-ms="1557" started-at="2020-02-19T22:29:20Z" finished-at="2020-02-19T22:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifiedHomePage -->
+        <test-method status="PASS" signature="afterSetup()[pri:0, instance:com.greatcourse.tests.smokeTest@5b275dab]" name="afterSetup" is-config="true" duration-ms="4080" started-at="2020-02-19T22:29:22Z" finished-at="2020-02-19T22:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSetup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.greatcourse.tests.smokeTest@5b275dab]" name="teardown" is-config="true" duration-ms="678" started-at="2020-02-19T22:29:26Z" finished-at="2020-02-19T22:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.greatcourse.tests.smokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
