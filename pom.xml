@@ -20,7 +20,7 @@
     <scope>test</scope>
 </dependency>
   
-  <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+  <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager --> 
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
@@ -44,6 +44,7 @@
   <build>
     <pluginManagement>
       <plugins>
+      
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
