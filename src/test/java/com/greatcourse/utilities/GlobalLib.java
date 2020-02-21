@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 import static org.testng.Assert.assertEquals;
 
+import org.apache.commons.io.serialization.ClassNameMatcher;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class GlobalLib {
 
 	private WebDriver driver;
-
+	final static Logger logger = Logger.getLogger(ClassNameMatcher.class);
 	public GlobalLib(WebDriver _driver) {
 		this.driver = _driver;
 	}
@@ -31,7 +33,7 @@ public class GlobalLib {
 
 	public void BrowserSetUp() {
 		driver = new ChromeDriver();
-
+		logger.debug("haha");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
