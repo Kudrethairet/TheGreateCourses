@@ -66,7 +66,7 @@ private String codeText="Priority Codes are on the back of the catalog, mail pro
 			 * catch block e.printStackTrace(); } catch (IOException e) { // TODO
 			 * Auto-generated catch block e.printStackTrace(); }
 			 */
-			
+			//thank you
 			
 		}
 		driver.quit();

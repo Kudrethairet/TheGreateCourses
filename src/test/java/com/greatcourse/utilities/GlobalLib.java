@@ -16,6 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class GlobalLib {
 
 	private WebDriver driver;
+	
 	final static Logger logger = Logger.getLogger(ClassNameMatcher.class);
 	public GlobalLib(WebDriver _driver) {
 		this.driver = _driver;
@@ -33,7 +34,7 @@ public class GlobalLib {
 
 	public void BrowserSetUp() {
 		driver = new ChromeDriver();
-		logger.debug("haha");
+		logger.info("haha");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
