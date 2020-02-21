@@ -33,13 +33,9 @@
 	</dependency>
   
   <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
-<dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-dependency-plugin</artifactId>
-    <version>3.1.1</version>
-</dependency>
+
   
-  
+   
   </dependencies>
   <build>
     <pluginManagement>
