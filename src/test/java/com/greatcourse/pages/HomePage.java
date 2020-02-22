@@ -51,11 +51,7 @@ private String codeText="Priority Codes are on the back of the catalog, mail pro
 			url = ele.getAttribute("href");
 			System.out.println(url);
 
-			driver.get(url);
-			System.out.println(driver.getTitle());
-			driver.navigate().back();
-			WebDriverWait wait = (WebDriverWait) new WebDriverWait(driver, 30);
-			wait.until(ExpectedConditions.titleIs("Online Courses & Lectures for Home Study and Lifelong Learning"));
+		
 			/*
 			 * try { huc = (HttpsURLConnection)(new URL(url).openConnection());
 			 * huc.setRequestMethod("HEAD"); huc.connect();
@@ -69,7 +65,6 @@ private String codeText="Priority Codes are on the back of the catalog, mail pro
 			//thank you
 			
 		}
-		driver.quit();
 	}
 	
 	 

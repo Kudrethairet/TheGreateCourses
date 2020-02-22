@@ -15,7 +15,7 @@ public class smokeTest extends BasePage {
 		assertEquals(hp.getTitle(), "Online Courses & Lectures for Home Study and Lifelong Learning");
 		hp.click_Have_a_Priority_Code_Elem();
 		assertEquals(hp.get_what_Are_Priority_codes_elem(), hp.returnExpectedCodeText());
-		//hp.verify_Courses_menu();
+		hp.verify_Courses_menu();
 	
 	
 	}
