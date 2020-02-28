@@ -16,6 +16,9 @@ public class smokeTest extends BasePage {
 		hp.click_Have_a_Priority_Code_Elem();
 		assertEquals(hp.get_what_Are_Priority_codes_elem(), hp.returnExpectedCodeText());
 		hp.verify_Courses_menu();
+		hp.clickSignInElem();
+		hp.clickCreateAnAccount();
+		li.waitfor(5);
 	
 	
 	}

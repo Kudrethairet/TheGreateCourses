@@ -1,0 +1,4 @@
+com\greatcourse\pages\HomePage.class
+com\greatcourse\tests\smokeTest.class
+com\greatcourse\utilities\BasePage.class
+com\greatcourse\utilities\GlobalLib.class

@@ -80,7 +80,8 @@ public class GlobalLib {
 
 		}
 	}
-
+	
+	
 	public WebElement findElement(By by, int i) {
 		WebElement codeElem = null;
 		try {
@@ -93,6 +94,32 @@ public class GlobalLib {
 		}
 		return codeElem;
 
+	}
+	
+	public void clickElement(By by1) {
+	try {
+		findElem(by1).click();
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		System.out.println(e.getMessage());
+	}
+	}
+	public void clickElement(WebElement elem) {
+	try {
+		elem.click();
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		System.out.println(e.getMessage());
+	}
+	}
+	public WebElement findElem(By by1) {
+		WebElement elem =null;
+		try {
+			elem = driver.findElement(by1);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		return elem;
 	}
 
 	public WebElement findElement(By by1, By by2) {
@@ -117,5 +144,22 @@ public class GlobalLib {
 		}
 		return text;
 	}
+	
+	public void verifyURL(By by, By by2) {
+		String url = null;
+		;
+		WebElement elem2 = driver.findElement(by);
+		//li.findElem(prop.getPropValueELem(key))
+		
+		List<WebElement> elems = elem2.findElements(by2);
+		for(WebElement ele: elems) {
+			url = ele.getAttribute("href");
+			System.out.println(url);
+
+		
+	}
+	}
+	
+	
 
 }

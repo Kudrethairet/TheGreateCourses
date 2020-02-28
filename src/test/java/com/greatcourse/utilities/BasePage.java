@@ -9,8 +9,9 @@ import org.testng.annotations.BeforeMethod;
 public class BasePage {
 	public  static WebDriver driver;
 	public static GlobalLib li;
-
-	@BeforeClass
+	//public  ReadPropFile prop= new ReadPropFile("src/test/resources/selector.properties");
+	
+	 @BeforeClass
 	public void setupClass() {
 
 		li = new GlobalLib(driver);
